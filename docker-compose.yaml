@@ -1,0 +1,14 @@
+# docker compose
+version: "3"
+services:
+        counter:
+                build: ./counter
+                ports:
+                - "5000:5000"
+        nginx:
+                build: ./nginx
+                ports:
+                - "80:80"
+        client:
+                build: ./client
+               
