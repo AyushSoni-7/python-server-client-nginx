@@ -4,8 +4,8 @@ This application contains following things:
 - Nginx loadbalancer
 
 To run the application
-- `docker-compose build --no-cache`
-- `docker-compose up`
+- `docker-compose build --no-cache` - To build the images
+- `docker-compose up -d` -  To run the container in background
 
 To see the logs use:
 - `docker logs <client-container> -f`
